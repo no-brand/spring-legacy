@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/local/bin/zsh
 
 # ├── init.sh
 # ├── pom.xml
