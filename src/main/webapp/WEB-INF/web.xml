@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>SimpleServlet</servlet-name>
+    <display-name>SimpleServlet</display-name>
+    <description>Simple Servlet</description>
+    <servlet-class>com.nobrand.legacy.j2ee.SimpleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimpleServlet</servlet-name>
+    <url-pattern>/SimpleServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
